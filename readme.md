@@ -1,7 +1,7 @@
 # LaCE-LHMP
 
 ## Data
-Use first 10 days of [ATC dataset](https://dil.atr.jp/crest2010_HRI/ATC_dataset/), first day for train and the rest for evaluation. The data is in `atc_data/middle_area` folder.
+Use first 10 days of [ATC dataset](https://dil.atr.jp/crest2010_HRI/ATC_dataset/), first day for train and the rest for evaluation. The data is in `atc_data/middle_area` folder, and add to git lfs.
 
 Use middle area of ATC dataset. This middle area has dimensions where x ranges from -25m to 0m and y ranges from -10m to 15m, amounting to an area of 625m<sup>2</sup>, which is shown in the figure below.
 

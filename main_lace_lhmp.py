@@ -45,6 +45,7 @@ def run_experiment(LT_histogram_file, histogram_divergence_file, human_traj_file
         writer = csv.writer(csvfile)
         writer.writerow(header)
 
+    ####### Update here to test on all person_ids in this atc date
     for person_id in [9103800]:
     # for person_id in tqdm(person_id_list):
         
@@ -124,7 +125,7 @@ def main(args):
     result_folder = f"results/{args.version}"
     os.makedirs(result_folder, exist_ok=True)
     
-    ## Specify the date of the atc data to be used for testing.
+    ####### Specify the date of the atc data to be used for testing.
     # for atc_date in ["1028", "1031", "1104", "1107", "1111", "1114", "1118", "1121", "1125"]:
     for atc_date in ["1031"]:
         human_traj_file = f"atc_data/middle_area/{atc_date}.csv"
